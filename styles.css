@@ -8,47 +8,19 @@ body {
   background-color: rgb(127, 209, 141);
 }
 
-#doginfo
+#infodump
 {
-  background-color: blueviolet;
+  background-color: aquamarine;
+  margin-top:20px;
+  max-width: 1500px;
+  
 }
 h2
 {
   color:antiquewhite;
-}
-.carousel-container {
-  position: relative;
-  width: 500px;
-  height: 700px;
-  overflow: hidden;
 }
 img{
   height:200px;
   width:200px;
 }
 
-.carousel-images {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-images img {
-  width: 100%;
-  height: auto;
-}
-
-.prev-button,
-.next-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-.prev-button {
-  left: 10px;
-}
-
-.next-button {
-  right: 10px;
-}

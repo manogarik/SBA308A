@@ -13,26 +13,44 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cat Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Breeds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Favourites</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+          </div>
+        </div>
+      </nav>
+      
 
-    <div id="catinfo" style="padding:20px;margin-top:30px;height:100px;">
+    <div id="catinfo" style="padding:20px;height:100px;">
         <h2 class="w-100 mt-5 ">Select a cat breed</h2>
         <select id="breedSelect" style="width: 300px" class="form-select form-select-lg my-1 "
             aria-label="form-select-lg"></select>
-            <div id = "catnames">
-                <legend>Click a specific cat to view more about it</legend>
+        <h3>All Cats of this breed are:</h3>
+        <div id = "catnames">
                 
-            </div>
-            <div id ="infodump">
                 
-            </div>
+        </div>
+        <div id ="infodump">
+
+        </div>
     </div>
 
 
