@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation Practice</title>
+    <link rel="stylesheet" href="styles1.css" />
+    <!-- Font Awesome for Icons -->
+    <script
+      src="https://kit.fontawesome.com/d8f052c6cf.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <!-- Container for entire form. -->
+    
+    <div class="form-container">
+      <!-- Registration Side -->
+      <div>
+        <h1>Register</h1>
+        <p>Please provide your information below.</p>
+
+        <!-- Registration Form -->
+        <form id="registration">
+          <input
+            name="username"
+            type="text"
+            placeholder="Username"
+            minlength="4"
+            pattern="^[a-zA-Z0-9]+$"
+            required
+          />
+          
+         
+          <span class="input-icon"><i class="fa-solid fa-envelope"></i></span
+          ><br />
+
+          <input
+            name="password"
+            type="text"
+            placeholder="Password"
+            minlength="12"
+          />
+          <span class="input-icon"><i class="fa-solid fa-key"></i></span><br />
+
+          <input
+            name="passwordCheck"
+            type="text"
+            placeholder="Repeat Password"
+          />
+          <span class="input-icon"><i class="fa-solid fa-key"></i></span
+          ><br /><br />
+
+          <div class="flex-row">
+            
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+
+      <!-- Login Side -->
+      <div>
+        <h1>Login</h1>
+        <p>Login using your account information.</p>
+
+        <!-- Login Form -->
+        <form id="login" style="border-bottom: 1px solid lightgray">
+          <input name="username" type="text" placeholder="Username" required />
+          <span class="input-icon"><i class="fa-solid fa-user"></i></span><br />
+
+          <input name="password" type="text" placeholder="Password" required />
+          <span class="input-icon"><i class="fa-solid fa-key"></i></span
+          ><br /><br />
+
+          <div class="flex-row">
+            
+            <input type="submit" value="Login" />
+            <input type = "button" id = "btn" value = "Print"/>
+          </div>
+          <br /><br />
+        </form>
+
+       
+      </div>
+    </div>
+
+    <!-- Error Display Container -->
+    
+    <script type="text/javascript" src="signup.js"></script>
+    <form id="home" action = "index.html">
+        <input type="submit" value = "Home">
+    </form>
+   
+  </body>
+</html>

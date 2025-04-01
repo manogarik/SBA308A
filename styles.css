@@ -6,6 +6,7 @@ body {
 
 body {
   background-color: rgb(127, 209, 141);
+  
 }
 
 #infodump
@@ -22,5 +23,15 @@ h2
 img{
   height:200px;
   width:200px;
+  
 }
-
+#catnames
+{
+  margin:30px;
+  background-image: url('cat.jpg');
+}
+button{
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+}
