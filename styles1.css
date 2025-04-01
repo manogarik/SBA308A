@@ -8,7 +8,7 @@ html {
 }
 body {
   
-  background-image: url(cat.jpg);
+  background-image: url("cat.jpg");
   color: #888;
 }
 .form-container {

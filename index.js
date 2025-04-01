@@ -1,4 +1,5 @@
-import {inform} from "./values.js"
+
+import { inform as text } from "./values.js" 
 import {body,breedSelect,div,info} from "./values1.js"
 
 // const body = document.querySelector('body');
@@ -8,7 +9,7 @@ import {body,breedSelect,div,info} from "./values1.js"
 const catnames = document.querySelector('#catnames');
 const h3 = document.createElement('h3');
 //Value imported from another file
-h3.textContent = inform;
+h3.textContent = text;
 
 
 

@@ -1,3 +1,4 @@
+
 const body = document.querySelector("body");
 const form1 = window.document.querySelector("#registration");
 const form2 = document.getElementById("login");
